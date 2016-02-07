@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>angular-colorpicker</title>
+    <link rel="stylesheet" href="..\bower_components\jquery-ui\themes\redmond\jquery-ui.min.css">
+    <link rel="stylesheet" href="..\bower_components\evol.colorpicker\css\evol.colorpicker.min.css">
+    <style>
+    body {
+        padding: 10px;
+    }
+    </style>
+</head>
+
+<body ng-app="colorpickerDemo" ng-controller="colorpickerDemoCtrl">
+    <div style="width:128px;">
+        <input ui-colorpicker ng-model="color" style="width:100px;" class="colorPicker evo-cp0" />
+        <input ng-model="color" style="width:100px;" class="colorPicker evo-cp0" />
+    </div>
+    <script type="text/javascript" src="..\bower_components\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="..\bower_components\jquery-ui\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="..\bower_components\angular\angular.min.js"></script>
+    <script type="text/javascript" src="..\bower_components\evol.colorpicker\js\evol.colorpicker.min.js"></script>
+    <script type="text/javascript" src="..\src\angular-colorpicker.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
