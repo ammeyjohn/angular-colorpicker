@@ -1,0 +1,24 @@
+{
+  "name": "angular-colorpicker",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Patrick <ammeyjohn@qq.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "jquery-ui": "^1.11.4",
+    "evol.colorpicker": "^3.2.4",
+    "angular": "^1.5.0"
+  }
+}
